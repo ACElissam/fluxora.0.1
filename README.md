@@ -1,22 +1,33 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <h1>🌐 Fluxora</h1>
+  <p><strong>A Next-Generation Web3 & Fintech Landing Page</strong></p>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📖 Overview
 
-View your app in AI Studio: https://ai.studio/apps/9167fd26-d99c-42e7-8665-aebad17b7f1b
+Fluxora is a high-performance landing page showcasing state-of-the-art web aesthetics. It features a fully interactive 3D globe background integrated with a bespoke "Liquid Glass" UI system, designed to feel premium, dynamic, and alive.
 
-## Run Locally
+## ✨ Features & Tech
 
-**Prerequisites:**  Node.js
+- **Interactive 3D Globe:** Powered by `Vanta.js` and `Three.js`
+- **Liquid Glass UI:** Custom glassmorphism with dynamic shimmer/glow (Tailwind + Vanilla CSS)
+- **Fluid Animations:** Orchestrated via `motion/react` (Framer Motion)
+- **Tech Stack:** React 18, TypeScript, Vite
 
+## 🚀 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# fluxora.0.1
-# fluxora.0.1
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ACElissam/fluxora.0.1
+   cd fluxora
+   ```
+2. Install dependencies & run:
+   ```sh
+   npm install
+   npm run dev
+   ```
+
+---
+*Built as a showcase for modern frontend UI/UX development practices.*
