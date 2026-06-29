@@ -83,6 +83,11 @@ export default function App() {
     };
   }, []);
 
+  // Scroll to top when view changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [currentView]);
+
   const handleWaitlistSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (emailInput.trim()) {
