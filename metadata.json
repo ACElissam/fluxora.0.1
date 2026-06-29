@@ -1,0 +1,6 @@
+{
+  "name": "Fluxora Landing Page",
+  "description": "A pixel-perfect recreation of the Fluxora hero landing page with elegant typography and fluid animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
